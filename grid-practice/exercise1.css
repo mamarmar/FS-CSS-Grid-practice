@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+}
+
+.wrapper{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 15px;
+    height: 25vh;
+    width: 50%;
+    margin: auto;
+}
+
+.item {
+    border-radius: 10px;
+}
+
+.item1 {
+    background-color: coral;
+    grid-column: span 2;
+}
+
+.item2 {
+    background-color: hotpink;
+    grid-column: span 2;
+}
+
+.item3 {
+    background-color: rgb(108, 159, 209);
+}
+
+.item4 {
+    background-color: greenyellow;
+    grid-column: span 3;
+}
+
+.item5 {
+    background-color: rgb(216, 74, 48);
+    grid-column: span 4;
+}
